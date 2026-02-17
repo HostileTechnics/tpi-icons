@@ -1,0 +1,57 @@
+{
+  "name": "Partner Intel",
+  "short_name": "TPI",
+  "description": "Track and understand your partner's cycle with real-time insights and guidance",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080a0e",
+  "theme_color": "#09f",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/HostileTechnics/tpi-icons/main/TPI_logo_Small.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/HostileTechnics/tpi-icons/main/TPI_logo_Small.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Home",
+      "description": "View current cycle status",
+      "url": "/",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/HostileTechnics/tpi-icons/main/TPI_logo_Small.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Field Guide",
+      "short_name": "Guide",
+      "description": "Quick reference for all phases",
+      "url": "/#guide",
+      "icons": [
+        {
+          "src": "https://raw.githubusercontent.com/HostileTechnics/tpi-icons/main/TPI_logo_Small.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "categories": ["health", "lifestyle", "utilities"],
+  "lang": "en",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "display_override": ["standalone", "minimal-ui"]
+}
